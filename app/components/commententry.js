@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default class CommentEntry extends React.Component {
   render() {
     return (
@@ -9,13 +8,14 @@ export default class CommentEntry extends React.Component {
         </div>
         <div className="media-body">
           <div className="input-group">
-          <input type="text" className="form-control"
-            placeholder="Write a comment..." />
+            <input type="text" className="form-control"
+              placeholder="Write a comment..." />
             <span className="input-group-btn">
               <button className="btn btn-default" type="button">
                 <span className="glyphicon glyphicon-camera"></span>
               </button>
               <button className="btn btn-default" type="button">
+                ☺
               </button>
             </span>
           </div>

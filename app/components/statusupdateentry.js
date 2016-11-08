@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default class StatusUpdateEntry extends React.Component {
   render() {
     return (
@@ -12,11 +11,11 @@ export default class StatusUpdateEntry extends React.Component {
             </li>
             <li role="presentation">
               <a href="#"><span className="glyphicon glyphicon-picture">
-              </span> <strong>Add Photos/Video</strong></a>
+                </span> <strong>Add Photos/Video</strong></a>
             </li>
             <li role="presentation">
               <a href="#"><span className="glyphicon glyphicon-th">
-              </span> <strong>Create Photo Album</strong></a>
+                </span> <strong>Create Photo Album</strong></a>
             </li>
           </ul>
           <div className="media">
@@ -41,6 +40,7 @@ export default class StatusUpdateEntry extends React.Component {
                   <span className="glyphicon glyphicon-user"></span>
                 </button>
                 <button type="button" className="btn btn-default">
+                  ☺
                 </button>
                 <button type="button" className="btn btn-default">
                   <span className="glyphicon glyphicon-pushpin"></span>
